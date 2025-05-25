@@ -1,0 +1,11 @@
+name: Email Action
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 22f3000227@ds.study.iitm.ac.in
+        run: echo "Hello, world from IITM!"
